@@ -21,7 +21,9 @@
         <asp:TextBox ID="txtEnrollDate" runat="server" CssClass="col-sm-3 form-control" type="date" required />
     </div>
 
-    <asp:Button ID="btnSave" runat="server" CssClass="col-sm-offset-3 btn btn-primary"  Text="Save" OnClick="btnSave_Click" />
-    <asp:label ID="lblError" runat="server" text="Someting Went wrong Please try again later!" CssClass="label-danger" Visible="false"></asp:label>
+    <div class="form-group">
+        <asp:Button ID="btnSave" runat="server" CssClass="col-sm-offset-3 btn btn-primary"  Text="Save" OnClick="btnSave_Click" />
+    </div>
+        <asp:label ID="lblError" runat="server" text="Someting Went wrong Please try again later!" CssClass="label-danger" Visible="false"></asp:label>
 
 </asp:Content>
